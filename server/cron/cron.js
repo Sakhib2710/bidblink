@@ -1,7 +1,7 @@
 const cron = require("cron");
 const https = require("https");
 
-const URL = "https://bidblink.onrender.com/login";
+const URL = "https://bidblink-h86e.onrender.com/login";
 
 const job = new cron.CronJob("*/15 * * * *", function () {
     https
